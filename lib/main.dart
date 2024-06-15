@@ -251,15 +251,14 @@ class _MyAppState extends State<MyApp> {
     });
   }
 
-   getIpAddress() async {
+  getIpAddress() async {
     try {
-       var data = IpAddress(type: RequestType.json);
-       print("ipaddresss  ${data.type.name}");
+      var data = IpAddress(type: RequestType.json);
+      print("ipaddresss  ${data.type.name}");
 
-       /// Get the IpAddress based on requestType.
+      /// Get the IpAddress based on requestType.
       ipAddress = await data.getIpAddress();
       print("ipaddresss  ${ipAddress}");
-
     } catch (e) {
       setState(() {
         ipAddress = 'IP Address: Error fetching data';
@@ -280,17 +279,18 @@ Future<void> initDeviceInfo() async {
   try {
     deviceInfo = DeviceInfoPlugin();
     if (Get.context != null) {
-      print("=-=-=-=-  ${Theme.of(Get.context!).platform}");
-      print("=-=-deviceInfo=-=-  ${deviceInfo}");
+      // print("=-=-=-=-  ${Theme.of(Get.context!).platform}");
+      // print("=-=-deviceInfo=-=-  ${deviceInfo}");
       if (Theme.of(Get.context!).platform == TargetPlatform.iOS) {
         iosInfo = await deviceInfo.iosInfo;
         model = iosInfo.model;
-        print('Running on iOS: ${iosInfo.utsname.machine}');
+
+        // print('Running on iOS: ${iosInfo.utsname.machine}');
       } else {
         androidInfo = await deviceInfo.androidInfo;
         model = androidInfo.model;
 
-        print('Running on Android: ${androidInfo.model}');
+        // print('Running on Android: ${androidInfo.model}');
       }
     } else {
       print('Error: Get.context is null');

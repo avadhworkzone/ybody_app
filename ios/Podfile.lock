@@ -1,0 +1,105 @@
+PODS:
+  - device_info_plus (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_localization (0.0.1):
+    - Flutter
+  - fluttertoast (0.0.2):
+    - Flutter
+    - Toast
+  - image_picker_ios (0.0.1):
+    - Flutter
+  - location (0.0.1):
+    - Flutter
+  - onesignal_flutter (3.5.3):
+    - Flutter
+    - OneSignalXCFramework (= 3.12.9)
+  - OneSignalXCFramework (3.12.9):
+    - OneSignalXCFramework/OneSignalCore (= 3.12.9)
+    - OneSignalXCFramework/OneSignalExtension (= 3.12.9)
+    - OneSignalXCFramework/OneSignalOutcomes (= 3.12.9)
+  - OneSignalXCFramework/OneSignalCore (3.12.9)
+  - OneSignalXCFramework/OneSignalExtension (3.12.9):
+    - OneSignalXCFramework/OneSignalCore
+    - OneSignalXCFramework/OneSignalOutcomes
+  - OneSignalXCFramework/OneSignalOutcomes (3.12.9):
+    - OneSignalXCFramework/OneSignalCore
+  - path_provider_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - shared_preferences_foundation (0.0.1):
+    - Flutter
+    - FlutterMacOS
+  - sqflite (0.0.3):
+    - Flutter
+    - FlutterMacOS
+  - Toast (4.1.1)
+  - video_player_avfoundation (0.0.1):
+    - Flutter
+  - webview_flutter_wkwebview (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - device_info_plus (from `.symlinks/plugins/device_info_plus/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_localization (from `.symlinks/plugins/flutter_localization/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - image_picker_ios (from `.symlinks/plugins/image_picker_ios/ios`)
+  - location (from `.symlinks/plugins/location/ios`)
+  - onesignal_flutter (from `.symlinks/plugins/onesignal_flutter/ios`)
+  - path_provider_foundation (from `.symlinks/plugins/path_provider_foundation/darwin`)
+  - shared_preferences_foundation (from `.symlinks/plugins/shared_preferences_foundation/darwin`)
+  - sqflite (from `.symlinks/plugins/sqflite/darwin`)
+  - video_player_avfoundation (from `.symlinks/plugins/video_player_avfoundation/ios`)
+  - webview_flutter_wkwebview (from `.symlinks/plugins/webview_flutter_wkwebview/ios`)
+
+SPEC REPOS:
+  trunk:
+    - OneSignalXCFramework
+    - Toast
+
+EXTERNAL SOURCES:
+  device_info_plus:
+    :path: ".symlinks/plugins/device_info_plus/ios"
+  Flutter:
+    :path: Flutter
+  flutter_localization:
+    :path: ".symlinks/plugins/flutter_localization/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  image_picker_ios:
+    :path: ".symlinks/plugins/image_picker_ios/ios"
+  location:
+    :path: ".symlinks/plugins/location/ios"
+  onesignal_flutter:
+    :path: ".symlinks/plugins/onesignal_flutter/ios"
+  path_provider_foundation:
+    :path: ".symlinks/plugins/path_provider_foundation/darwin"
+  shared_preferences_foundation:
+    :path: ".symlinks/plugins/shared_preferences_foundation/darwin"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/darwin"
+  video_player_avfoundation:
+    :path: ".symlinks/plugins/video_player_avfoundation/ios"
+  webview_flutter_wkwebview:
+    :path: ".symlinks/plugins/webview_flutter_wkwebview/ios"
+
+SPEC CHECKSUMS:
+  device_info_plus: c6fb39579d0f423935b0c9ce7ee2f44b71b9fce6
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_localization: f43b18844a2b3d2c71fd64f04ffd6b1e64dd54d4
+  fluttertoast: 31b00dabfa7fb7bacd9e7dbee580d7a2ff4bf265
+  image_picker_ios: 99dfe1854b4fa34d0364e74a78448a0151025425
+  location: d5cf8598915965547c3f36761ae9cc4f4e87d22e
+  onesignal_flutter: c56e81f5a422b0b1e06820338f299333ca85c171
+  OneSignalXCFramework: 3c3ef25ecca5eae1bf80a3272c49fd1dbab96b35
+  path_provider_foundation: 3784922295ac71e43754bd15e0653ccfd36a147c
+  shared_preferences_foundation: b4c3b4cddf1c21f02770737f147a3f5da9d39695
+  sqflite: 673a0e54cc04b7d6dba8d24fb8095b31c3a99eec
+  Toast: 1f5ea13423a1e6674c4abdac5be53587ae481c4e
+  video_player_avfoundation: 81e49bb3d9fb63dccf9fa0f6d877dc3ddbeac126
+  webview_flutter_wkwebview: 4f3e50f7273d31e5500066ed267e3ae4309c5ae4
+
+PODFILE CHECKSUM: 06ac362dc7b98a82a9f02be63e6c2e0898d540b3
+
+COCOAPODS: 1.15.2

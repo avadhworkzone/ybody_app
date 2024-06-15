@@ -30,7 +30,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
   // ImagePicker picker = ImagePicker();
   File? image;
   String dropdownValue = list.first;
-  String dropdownValues = lists.first;
+  String dropdownValues = 'en';
+
+  ///lists.first;
   String dropValue = 'ar';
   String _selectedGender = 'm';
   @override

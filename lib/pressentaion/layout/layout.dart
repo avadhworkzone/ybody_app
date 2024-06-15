@@ -52,7 +52,7 @@ class _AppLayoutScreenState extends State<AppLayoutScreen> {
           return Scaffold(
             body: cubit.screens[cubit.currentIndex],
             bottomNavigationBar: SizedBox(
-              height: 60.h,
+              // height: 60.h,
               child: ClipRRect(
                 borderRadius: const BorderRadius.only(
                   topRight: Radius.circular(20),
